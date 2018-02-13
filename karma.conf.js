@@ -22,7 +22,7 @@ module.exports = function (config) {
     angularCli: {
       environment: 'dev'
     },
-    junitReporter = {
+    junitReporter: {
       outputFile: 'test-results.xml'
     },
     reporters: ['dots', 'junit'],
